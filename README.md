@@ -2,7 +2,7 @@
 Easy Javascript library to interact with Ethereum ERC20 tokens
 
 Usage:
-npm install --save erc20-js
+meteor npm install --save erc20-js
 
 const erc20 = require('erc20-js');
 
