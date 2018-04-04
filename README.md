@@ -1,8 +1,10 @@
 # erc20-token-library
 Easy Javascript library to interact with Ethereum ERC20 tokens
 
-## Install/Run
-  meteor npm install --save erc20-js
+## Install
+```
+meteor npm install --save erc20-js
+```
 
 ## Usage
 ```
@@ -14,3 +16,6 @@ tokenInst.name().then(function(name) {
     ...
 });
 ```
+
+## TODO
+  - [ ] Add unit tests
