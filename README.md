@@ -25,3 +25,4 @@ erc20.OmiseGo.totalSupply().then(function(supply) {
 
 ## TODO
   - [ ] Add unit tests
+  - [ ] Allow choice of network/node to connect to (currently hardcoded for infura node on mainnet)
