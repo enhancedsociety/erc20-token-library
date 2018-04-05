@@ -19,3 +19,4 @@ tokenInst.name().then(function(name) {
 
 ## TODO
   - [ ] Add unit tests
+  - [ ] Add dependencies (web3.js)
