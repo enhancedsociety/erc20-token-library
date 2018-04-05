@@ -1,19 +1,25 @@
-# erc20-token-library
-Easy Javascript library to interact with Ethereum ERC20 tokens
+# erc20-js
+
+Easy Javascript library to interact with Ethereum ERC20 tokens.
 
 ## Install
 ```
-meteor npm install --save erc20-js
+npm install erc20-js
 ```
 
 ## Usage
-```
+```js
 const erc20 = require('erc20-js');
 
-var tokenInst = new erc20.ERC20(tokenContractAddress);
+const tokenInst = new erc20.ERC20(tokenContractAddress);
 
 tokenInst.name().then(function(name) {
-    ...
+  ...
+});
+
+
+erc20.OmiseGo.totalSupply().then(function(supply) {
+  ...
 });
 ```
 
