@@ -24,6 +24,7 @@ class ERC20Wrapper {
      * @param {string} tokenContractAddress Token contract address
      */
     constructor(tokenContractAddress) {
+        this.tokenContractAddress = tokenContractAddress;
         this.init = new Promise((resolve) => {
             const tokenInst = web3.eth.contract(ERC20Abi).at(tokenContractAddress);
             // console.log("this._tokenInst = " + tokenInst);
